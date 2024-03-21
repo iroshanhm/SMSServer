@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Fri Apr 28 23:53:29 BST 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.1.1 - (1458268): instance a816c00e-0187-ca12-4a31-00003de00000 
+on database directory D:\_Dev\DEV_PROJECTS\SMSServer\Project\SMSServer_dev\derbysetting with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@c387f44 
+Loaded from file:/D:/_Dev/DEV_PROJECTS/SMSServer/Project/SMSServer_dev/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=19.0.1+10-21
+user.dir=D:\_Dev\DEV_PROJECTS\SMSServer\Project\SMSServer_dev
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

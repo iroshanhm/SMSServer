@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="hibernate.dialect">org.hibernate.dialect.SQLServer2008Dialect</property>
+    <property name="hibernate.connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
+    <property name="hibernate.connection.url">jdbc:sqlserver://127.0.0.1;databaseName=DB_MAIN</property>
+    <property name="hibernate.connection.username">sa</property>
+    <property name="hibernate.connection.password">abc</property>
+    <!-- <property name="hibernate.default_schema">Payroll</property> -->
+    <!-- <property name="hibernate.hbm2ddl.auto">create</property> -->
+    <property name="hibernate.show_sql">true</property>
+    <mapping class="iroshan.com.smsserver.entity.CustCategoryMain"/>
+    <mapping class="iroshan.com.smsserver.entity.IncomeExpenceSubManualEntity"/>
+    <mapping class="iroshan.com.smsserver.entity.QprintIncomeExpence2Entity"/>
+    <mapping class="iroshan.com.smsserver.entity.CustCategory_ent"/>
+  </session-factory>
+</hibernate-configuration>
